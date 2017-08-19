@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ViewBgDefault"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+  <TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#3e4a56"
+	android:padding="10dp"
+	android:text="Novo - Lembrete"
+	android:textColor="@color/white"
+	android:textSize="20sp"
+	android:textStyle="bold" />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Assunto"
+    android:textColor="#3e4a56" >
+</TextView>
+<EditText
+    android:id="@+id/EditTextassunto"  
+    android:layout_height="wrap_content"
+    android:inputType="textLongMessage"
+    android:layout_width="fill_parent" 
+    android:textColor="#3e4a56" >
+</EditText>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Localizacao"
+    android:textColor="#3e4a56" >
+</TextView>
+<EditText
+    android:id="@+id/EditTextlocalizacao"  
+    android:layout_height="wrap_content"
+    android:inputType="textLongMessage"
+    android:layout_width="fill_parent" 
+    android:textColor="#3e4a56" >
+</EditText>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Descricao"
+    android:textColor="#3e4a56" >
+</TextView>
+<EditText
+    android:id="@+id/EditTextdescricao"  
+    android:layout_height="wrap_content"
+    android:inputType="textLongMessage"
+    android:layout_width="fill_parent" 
+    android:textColor="#3e4a56" >
+</EditText>
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="foto"
+    android:textColor="#3e4a56" >
+</TextView>
+<ImageView
+    android:id="@+id/ImageViewfoto"
+    android:layout_width="128dp"
+    android:layout_height="128dp"
+    android:src="@android:drawable/ic_menu_gallery" 
+    />
+<EditText
+    android:id="@+id/EditTextfoto"  
+    android:layout_height="wrap_content"
+    android:inputType="textLongMessage"
+    android:layout_width="match_parent" 
+    android:textColor="#3e4a56">
+</EditText>
+<Button
+    android:id="@+id/ButtonSendFeedback"
+    android:layout_height="wrap_content"
+    android:text="Cadastrar"
+    android:layout_width="fill_parent">
+</Button> 
+<Button
+    android:id="@+id/ButtonBack"
+    android:layout_height="wrap_content"
+    android:text="Voltar"
+    android:layout_width="fill_parent">
+</Button> 
+</LinearLayout>
+</ScrollView>

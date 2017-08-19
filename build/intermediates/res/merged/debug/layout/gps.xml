@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ViewBgGps"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+   <ImageView
+	android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="60dp"
+    android:src="@drawable/marker" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:text="@string/lbl_you_are_at"
+    android:textColor="@color/white"
+    android:textSize="25dp"
+    android:textStyle="bold" />
+ 
+    <TextView
+    android:id="@+id/TvCoordinate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="15dp"
+    android:textColor="@color/white"
+    android:textSize="16dp" />
+    
+    <Button
+    android:id="@+id/ButtonShowLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:text="@string/btn_get_location"
+    android:textColor="@color/ButtonBg" />
+     <Button
+    android:id="@+id/ButtonGetLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:text="@string/btn_get_location2"
+    android:textColor="@color/ButtonBg" />
+</LinearLayout>

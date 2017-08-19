@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Bem Vindo, Projeto</string>
+    <string name="app_name">Projeto</string>
+    <string name="lbl_you_are_at">Voce esta em:</string>
+    <string name="btn_get_location">Obter Localizacao</string>
+    <string name="btn_get_location2">Pegar Localizacao</string>
+    <string name="textomain"/>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\willamys\\workspace_neon\\Ondefoimesmo\\build\\intermediates\\res\\merged\\debug\\menu\\listmenu.xml",
+        "source": "C:\\Users\\willamys\\workspace_neon\\Ondefoimesmo\\res\\menu\\listmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\willamys\\workspace_neon\\Ondefoimesmo\\build\\intermediates\\res\\merged\\debug\\menu\\mainmenu.xml",
+        "source": "C:\\Users\\willamys\\workspace_neon\\Ondefoimesmo\\res\\menu\\mainmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\willamys\\workspace_neon\\Ondefoimesmo\\build\\intermediates\\res\\merged\\debug\\menu\\menuimage.xml",
+        "source": "C:\\Users\\willamys\\workspace_neon\\Ondefoimesmo\\res\\menu\\menuimage.xml"
+    }
+]
